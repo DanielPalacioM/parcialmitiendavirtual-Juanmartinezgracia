@@ -25,3 +25,51 @@
 #container a {
   text-decoration: none;
 }
+
+ion-card {
+  margin: 10px;
+  text-align: left;
+  background-color: #ffff;
+  width: 160px; 
+  height: 250px; 
+  transition: box-shadow 0.3s ease ,; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+}
+
+
+
+ion-card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black; 
+}
+
+ion-img {
+  height: 150px;
+  object-fit: contain;  
+}
+
+ion-toolbar {
+  --background: #094293; 
+  --color: #ffffff; 
+}
+
+
+
+ion-segment {
+  --background: #f0f0f0;
+  --indicator-color: #094293;
+}
+
+ion-segment-button {
+  --color-checked: #ffffff;
+  --background-checked: #094293;
+  --color: #094293;
+}
+
+
+
+
+

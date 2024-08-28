@@ -1,0 +1,31 @@
+ion-toolbar {
+    --background: #094293; 
+    --color: #ffffff; 
+  }
+  
+  .highlight-icon {
+    ion-icon {
+      color: #5A5A5A; 
+      transition: transform 1.3s ease, color 1.3s ease, box-shadow 1.3s ease;
+    }
+  
+    &:hover ion-icon {
+      color: #FF5722; 
+      transform: scale(1.2); 
+      box-shadow: 0px 4px 8px rgba(0, 162, 255, 0.3); 
+    }
+  }
+  
+  .small-image {
+    width: 80%; 
+    max-width: 300px; 
+    height: auto; 
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    margin-top: 20px;        
+  }
+  
